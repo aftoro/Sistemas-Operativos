@@ -139,4 +139,4 @@ rm simulador
 
 ## Autor
 
-Simulador desarrollado como proyecto educativo para comprender el funcionamiento de un **planificador Round-Robin**, con cambio de contexto simulado y registros de CPU.
+Simulador desarrollado como proyecto educativo para comprender el funcionamiento de un **planificador Round-Robin**, con cambio de contexto simulado y registros de CPU. Por Andrés Felipe Toro Orrego, Fabián Andrés Buriticá y Santiago Lafont Díaz.
