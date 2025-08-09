@@ -29,10 +29,10 @@ simulador_procesos/
 Usa `gcc` para compilar todos los archivos fuente:
 
 ```bash
-gcc src/main.c src/planificador.c src/instrucciones.c -Iinclude -o bin/simulador
+gcc src/main.c src/planificador.c src/instrucciones.c -Iinclude -o bin/procplanner
 ```
 
-Esto generará un ejecutable llamado `simulador`.
+Esto generará un ejecutable llamado `procplanner`.
 
 ---
 
@@ -45,7 +45,7 @@ Tienes dos formas de ejecutar el simulador:
 Puedes pasarle un archivo `.txt` con los procesos como argumento:
 
 ```bash
-./simulador procesos.txt
+./procplanner procesos.txt
 ```
 
 El archivo debe tener líneas como estas:
@@ -68,7 +68,7 @@ NOP
 Si ejecutas sin argumentos:
 
 ```bash
-./simulador
+./procplanner
 ```
 
 Podrás ingresar los procesos manualmente. Ejemplo:
@@ -99,7 +99,7 @@ Estas son las instrucciones válidas en los archivos `.txt` de cada proceso:
 ## Ejemplo de ejecución
 
 ```bash
-./simulador procesos.txt
+./procplanner procesos.txt
 ```
 
 Salida esperada:
@@ -124,7 +124,7 @@ Valores después: AX=6, BX=0, CX=0
 Para borrar el ejecutable:
 
 ```bash
-rm simulador
+rm procplanner
 ```
 
 ---
